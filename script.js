@@ -1,6 +1,6 @@
 class N8NAIChat {
     constructor() {
-        this.apiUrl = 'https://iammarkiz.app.n8n.cloud/webhook-test/webhook/chat'; // Изменено на локальный адрес
+        this.apiUrl = 'http://localhost:5678/webhook/webhook/chat'; // Изменено на локальный адрес
         this.isConnected = false;
         this.currentChat = null;
         this.chats = new Map();
